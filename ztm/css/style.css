@@ -1,0 +1,116 @@
+body {
+	background-color: rgba(125,126,125);
+    background-color: -moz-linear-gradient(-45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+    background-color: -webkit-linear-gradient(-45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    background-color: linear-gradient(135deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 );
+}
+
+#logo {
+    position: absolute;
+    display: block;
+	margin-top: 15px;
+    left: 30px;
+	z-index: 1000000;
+}
+
+.dropdown {
+    position: absolute;
+	display: block;
+    right: 10px;
+    top: 15px;
+	z-index: 1000000;
+}
+
+.dropdown {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+	margin-top: 15px;
+	width: 40px;
+}
+
+.dropbtn {
+    background-color: transparent;
+	width: 40px;
+}
+
+.dropbtn::after {
+    background-color: transparent;
+    content: "";
+    position: absolute;
+    top: 15px;
+	width: 40px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+	width: 40px;
+}
+
+.dropdown-content a:hover {
+    background-color: transparent;
+	width: 40px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	width: 40px;
+}
+
+.zdropdown {
+    position: absolute;
+    display: block;
+	top: 15px;
+    right: 80px;
+	z-index: 1000000;
+}
+
+.zdropbtn {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.zdropdown-content {
+    display: none;
+}
+
+.zdropbtn {
+    background-color: transparent;	
+}
+
+.zdropbtn::after {
+    background-color: transparent;
+    content: "";
+}
+
+.zdropdown-content a:first-child {
+    background-color: transparent;
+}
+
+.zdropdown-content a:last-child {
+    background-color: transparent;
+}
+
+.zdropdown-content a {
+    padding-left: 7px;
+    display: block;
+}
+
+.zdropdown-content a:hover {
+    background-color: transparent
+}
+
+.zdropdown:hover .zdropdown-content {
+    display: block;
+}
+
+#a {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
